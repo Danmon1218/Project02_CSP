@@ -10,41 +10,41 @@
 ---
 
 ## Student Information 
-- **Name:** [Write your Name here]
-- **UID (netID):** [Write your UID (netID) here]
-- **UIN:** [Write your UIN here]
+- **Name:** Daniel Montesdeoca
+- **UID (netID):** dmont21
+- **UIN:** 654966860
 
 ---
 
 ## Section 1: Dataset & University Configuration
-- **Total Courses Configured:** [Write total number of courses here, must be 15 or more]
-- **Total Rooms Configured:** [Write total number of rooms here, must be 6 or more]
-- **Total Time Slots Configured:** [Write total number of time slots here, must be 15 or more]
+- **Total Courses Configured:** 65
+- **Total Rooms Configured:** 20
+- **Total Time Slots Configured:** 50
 
 ---
 
 ## Section 2: Local Verification & Implemented Solvers
 *Check the algorithms and features you successfully ran and verified by placing an `x` in the brackets (e.g., `[x]`):*
-- [ ] DataLoader & CSV Parsing
-- [ ] Hard Constraint Validation Engine
-- [ ] Soft Penalty & Quality Evaluation Engine
-- [ ] CSP Backtracking with MRV + LCV + Forward Checking
-- [ ] Min-Conflicts CSP Local Search
-- [ ] Timetable CSV Export (<studentid>_timetable.csv)
+- [x] DataLoader & CSV Parsing
+- [x] Hard Constraint Validation Engine
+- [x] Soft Penalty & Quality Evaluation Engine
+- [x] CSP Backtracking with MRV + LCV + Forward Checking
+- [x] Min-Conflicts CSP Local Search
+- [x] Timetable CSV Export (<studentid>_timetable.csv)
 
 ---
 
 ## Section 3: Video Presentation & Project Structure
 - **Video Presentation Link:** [Provide an accessible link to your 5–7 minute video presentation]
-- **Project Directory Structure:** [Explain how your project files and directory are organized]
+- **Project Directory Structure:** The data is in the data file consisting of all of the csv files and the main executed code is in app.py which takes from the helper files such as softCon.py, labAdapt.py, and otherHelpers.py 
 
 ---
 
 ## Section 4: Discussion & Problem Formulation
 *Provide your written analysis for each point by replacing the bracket placeholders below:*
 - **How did you formulate the variables, domains, and constraints for this scheduling problem?**
-    [Write your answer here]
+The variables are formulated through the csv files that are givven and they are loaded into a data set which allows for me to access them through my backtracking.py file. I needed to make an adapter in order for it to work in the whole program.
 - **Compare CSP Backtracking (with heuristics) vs Local Search (Min-Conflicts) in terms of scalability, completeness, and solution quality.**
-    [Write your answer here]
+In terms of completeness we can see that CSP backtracing is complete while local search tends to not be fully complete meaning it can get stuck and not find a specific solution. When it comes to scalability it depends on the size but local search tends to work better with larger data sets. 
 - **How can modern AI / LLM techniques be combined with CSP solvers for real-world automated university scheduling?**
-    [Write your answer here]
+When combinding modern AI with these techniques it could make secheduling a lot easier and not have to worry about either overbooking a class or even determine if a studen is going to be able to take a class. AI can help in general speed up the scheduling process and cause less stress for both students and professors. 
