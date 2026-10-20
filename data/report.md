@@ -35,7 +35,7 @@
 ---
 
 ## Section 3: Video Presentation & Project Structure
-- **Video Presentation Link:** [Provide an accessible link to your 5–7 minute video presentation]
+- **Video Presentation Link:** https://youtu.be/ovJappMxaPo
 - **Project Directory Structure:** The data is in the data file consisting of all of the csv files and the main executed code is in app.py which takes from the helper files such as softCon.py, labAdapt.py, and otherHelpers.py 
 
 ---
